@@ -4,10 +4,10 @@ The take home consists of implementing a back_end API serving the data from item
 The API should be implemented in Python using Flask, it should expose the following endpoints:  
 
 - **GET /users:** Gets a list of users
-- **GET /user/{id}:** Gets a user by ID
+- **GET /user/{user_id}:** Gets a user by ID
 - **POST /user:** Validates the data and creates a user
-- **GET /user/{id}/orders:** Gets the relevant orders for one user
-- **GET /user/{id}/order_items:** Gets the items that have ever been order by a user   
+- **GET /user/{user_id}/orders:** Gets the relevant orders for one user
+- **GET /user/{user_id}/order_items:** Gets the items that have ever been order by a user   
 
 # Tip: 
 A good separation of concern between API layer and data-fetching layer allows for reusability and a more flexible codebase   
